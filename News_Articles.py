@@ -4,6 +4,12 @@
 
 number = 1
 numberSecond = 2
-senteche = "this is a string"
+sentece = "this is a string"
 
-def add_Two_number(number, numberSecond);
+def add_Two_number(number, numberSecond):
+    return number+numberSecond
+
+def main():
+    print(add_Two_number(number, numberSecond))
+
+main()
